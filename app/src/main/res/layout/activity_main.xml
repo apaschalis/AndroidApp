@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+    android:layout_width="wrap_content"
+    android:layout_height="393dp"
+    android:id="@+id/getData"
+    android:layout_gravity="center"
+        android:dividerHeight="20dp"
+        android:drawSelectorOnTop="false"
+        android:paddingBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:layout_above="@+id/button3" />
+
+</RelativeLayout>
